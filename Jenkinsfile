@@ -18,7 +18,7 @@ pipeline {
                 echo "Downloading Docker files..."
                 sh """
                     
-                    cd vprofile-project
+                   cd vprofile-project
                     wget https://raw.githubusercontent.com/HabibQayoom70/vprofile-project/main/Dockerfile
                     wget https://raw.githubusercontent.com/HabibQayoom70/vprofile-project/main/docker-compose.yml
                 """
